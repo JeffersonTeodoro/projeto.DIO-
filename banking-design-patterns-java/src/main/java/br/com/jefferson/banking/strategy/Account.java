@@ -23,6 +23,11 @@ public class Account {
     }
 
     public void withdraw(double amount) {
+        if (amount > balance) {
+            throw new IllegalStateException(
+                    "Saldo insuficiente para realizar o saque."
+            );
+        }
         balance -= amount;
     }
 }
