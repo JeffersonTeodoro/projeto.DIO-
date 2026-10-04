@@ -1,4 +1,4 @@
 package br.com.jefferson.banking.strategy;
 
-public class WithdrawalStrategyTest {
+public class DepositStrategyTest {
 }
